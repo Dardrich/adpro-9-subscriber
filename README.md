@@ -14,3 +14,9 @@ On my machine, the total queue count reached 6. This occurred because the subscr
 
 ![alt text](rabbit6.jpg)
 The message spike decreases because each subscriber gets a unique portion of the data, distributing the load. Since messages are removed from the queue once consumed, other subscribers can't access them.
+
+Component diagram
+![alt text](rabbit8.jpg)
+
+Code diagram
+![alt text](rabbit7.jpg)
